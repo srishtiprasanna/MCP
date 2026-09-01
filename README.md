@@ -97,7 +97,10 @@ AI → Custom code → Files
 
 The main idea is standardization. The AI application doesn't need to know all the internal details of every external system. It can communicate with an MCP server through the standard MCP protocol.
 
+Hands-on: Built a simple Task Manager MCP server using Python and tested the tools using MCP Inspector.
 
 # References
 https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro
 https://www.geeksforgeeks.org/artificial-intelligence/model-context-protocol-mcp/
+
+
