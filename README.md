@@ -16,20 +16,22 @@ There are mainly three parts:
 Host → Client → Server
 
 Host: The AI application that the user interacts with.
+
 Client: The part of the host that communicates with MCP servers.
+
 Server: Provides the actual tools or data that the AI can use.
 
 For example:
 
-User
- ↓
-AI Application
- ↓
-MCP Client
- ↓
-MCP Server
- ↓
-External tool / data / API
+            User
+             ↓
+      AI Application
+             ↓
+         MCP Client
+             ↓
+         MCP Server
+             ↓
+   External tool / data / API
 
 
 # What can an MCP Server provide?
@@ -65,6 +67,7 @@ For example, an MCP server could provide access to:
 The difference  is:
 
 Tool = do something
+
 Resource = get/read something
 
 
@@ -78,11 +81,15 @@ They can be useful when there is a particular way an application wants an AI to 
 # Why is MCP useful?
 
 Without MCP, an AI application may need to have different custom integrations for different services.
+
 For example:
 
 AI → Custom code → Database
+
 AI → Custom code → GitHub
+
 AI → Custom code → API
+
 AI → Custom code → Files
 
              AI Application
