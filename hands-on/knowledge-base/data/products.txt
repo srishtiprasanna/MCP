@@ -1,0 +1,10 @@
+Products
+
+AI Assistant Platform:
+An internal platform that helps teams build and manage AI assistants.
+
+Agent Marketplace:
+A platform where employees can discover and use AI agents for different tasks.
+
+Automation Platform:
+A system used to automate repetitive business processes and workflows.
