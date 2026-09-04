@@ -22,7 +22,6 @@ Client: The part of the host that communicates with MCP servers.
 Server: Provides the actual tools or data that the AI can use.
 
 For example:
-
             User
              ↓
       AI Application
@@ -32,6 +31,7 @@ For example:
          MCP Server
              ↓
    External tool / data / API
+
 
 
 # What can an MCP Server provide?
@@ -111,3 +111,26 @@ https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro
 https://www.geeksforgeeks.org/artificial-intelligence/model-context-protocol-mcp/
 
 
+# Hands-on 
+
+### 1. Task Manager MCP Server — September 1, 2026
+
+Built a simple Task Manager MCP server using Python.
+Created MCP tools to add, list, and complete tasks.
+Tested the tools using MCP Inspector.
+This helped me understand how MCP tools work and how an AI can use external functions through an MCP server.
+
+### 2. Knowledge Base MCP Server — September 3, 2026
+
+Built an MCP server that can search and read information from local text files.
+Created tools to search the knowledge base and retrieve complete documents.
+This helped me understand how MCP can connect an AI to external data instead of relying only on what the AI already knows.
+I also learned how tools can provide controlled access to local information.
+
+### 3. Task Database MCP Server — September 4, 2026
+
+Built a task management MCP server connected to a SQLite database.
+Created tools for creating, reading, updating, and deleting tasks.
+Also added an MCP Resource that provides the current list of tasks.
+This helped me understand how MCP can work with persistent data and the difference between Tools and Resources.
+I tested the server and its tools and resources using MCP Inspector.
