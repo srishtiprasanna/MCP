@@ -138,10 +138,4 @@ I tested the server and its tools and resources using MCP Inspector.
 
 ### 4. API Integration MCP Server — September 5, 2026
 
-Built an MCP server that connects to an external REST API.
-
-Created tools to get information about a specific user and list all users.
-
-Used Python and the Requests library to make API calls and process JSON responses.
-
-This helped me understand how MCP can connect an AI application to external APIs and services.
+Built an MCP server that connects to an external REST API. Created tools to get information about a specific user and list all users. Used Python and the Requests library to make API calls and process JSON responses. This helped me understand how MCP can connect an AI application to external APIs and services.
