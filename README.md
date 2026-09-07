@@ -139,3 +139,7 @@ I tested the server and its tools and resources using MCP Inspector.
 ### 4. API Integration MCP Server — September 5, 2026
 
 Built an MCP server that connects to an external REST API. Created tools to get information about a specific user and list all users. Used Python and the Requests library to make API calls and process JSON responses. This helped me understand how MCP can connect an AI application to external APIs and services.
+
+### 5. Smart Task Assistant MCP Server — September 7, 2026
+
+Built a more complete task management MCP server using Python and SQLite. Created multiple tools to create, list, search, complete, and analyze tasks. Added tools for getting task statistics and finding the next pending task. This helped me understand how multiple MCP tools can work with the same database and how an AI can choose different tools based on what the user asks. Tested the tools using MCP Inspector.
