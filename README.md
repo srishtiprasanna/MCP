@@ -143,3 +143,8 @@ Built an MCP server that connects to an external REST API. Created tools to get 
 ### 5. Smart Task Assistant MCP Server — September 7, 2026
 
 Built a more complete task management MCP server using Python and SQLite. Created multiple tools to create, list, search, complete, and analyze tasks. Added tools for getting task statistics and finding the next pending task. This helped me understand how multiple MCP tools can work with the same database and how an AI can choose different tools based on what the user asks. Tested the tools using MCP Inspector.
+
+
+### 6. GitHub Issue Assistant MCP Server — September 8, 2026
+
+Built an MCP server that connects to the GitHub REST API and provides tools to get, search, create, and close issues in a GitHub repository. Used a GitHub fine-grained Personal Access Token for authentication and environment variables to keep the token separate from the source code. This helped me understand how MCP can connect an AI application to a real external service and perform actions through an API. Tested the tools using MCP Inspector.
